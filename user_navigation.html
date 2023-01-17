@@ -1,0 +1,25 @@
+<header class="py-3 border-bottom">
+    <div class="container d-flex flex-wrap justify-content-center">
+    <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+        
+    <span class="fs-4"><i class="fa-solid fa-book-open"></i> PA BOOK</span>
+    </a>
+    <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+        <input type="search" class="form-control" placeholder="Keresés...." aria-label="Search" id="search_field">
+        <input type="button" class="btn btn-success form-control" value="Search" onclick="get_book('search_book', document.getElementById('search_field').value);">
+    </form>
+    </div>
+</header>
+<nav class="py-3 bg-light border-bottom">
+    <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link link-dark px-2 active" aria-current="page">Főoldal</a></li>
+            <li class="nav-item"><a href="book_list.html" class="nav-link link-dark px-2">Könyvek</a></li>
+            <li class="nav-item"><a href="info.html" class="nav-link link-dark px-2">Információk</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link link-dark px-2">Rólunk</a></li>
+            <li class="nav-item"><a href="cont.html" class="nav-link link-dark px-2">Kapcsolat</a></li>
+            <li class="nav-item"><a href="cart.php" class="nav-link link-dark px-2"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+        <ul class="nav" id="customer_navigation"></ul>
+    </div>
+</nav>
