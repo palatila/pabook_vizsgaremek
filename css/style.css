@@ -1,0 +1,31 @@
+#book_container img {
+    width: 150px;
+}
+#book_img{
+
+    float: left;
+    width: 60%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+.bookcon{
+    overflow: auto;
+    margin-top: 50px;
+}   
+.order-btn{
+
+    display: block;
+    text-align: center;
+    background: rgb(69, 107, 103);
+    color: papayawhip;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    width: 180px;
+    margin: 30px auto;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;    
+}
